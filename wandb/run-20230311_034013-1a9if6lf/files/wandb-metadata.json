@@ -1,0 +1,37 @@
+{
+    "os": "macOS-13.0.1-arm64-arm-64bit",
+    "python": "3.10.7",
+    "heartbeatAt": "2023-03-11T08:40:14.116068",
+    "startedAt": "2023-03-11T08:40:13.747639",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "train",
+        "rnn_model.pt",
+        "--cell-type",
+        "rnn",
+        "--viz-wandb",
+        "amyxin",
+        "--training-dir",
+        "Hansard/Training"
+    ],
+    "state": "running",
+    "program": "/Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/a2_run.py",
+    "codePath": "a2_run.py",
+    "host": "Amys-MacBook-Air.local",
+    "username": "amyxin",
+    "executable": "/Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/venv/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 11.06106948852539
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

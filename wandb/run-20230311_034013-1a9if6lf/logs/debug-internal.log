@@ -1,0 +1,237 @@
+2023-03-11 03:40:13,761 INFO    StreamThr :72765 [internal.py:wandb_internal():87] W&B internal server running at pid: 72765, started at: 2023-03-11 03:40:13.761017
+2023-03-11 03:40:13,762 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status
+2023-03-11 03:40:13,764 INFO    WriterThread:72765 [datastore.py:open_for_write():85] open: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/run-1a9if6lf.wandb
+2023-03-11 03:40:13,764 DEBUG   SenderThread:72765 [sender.py:send():334] send: header
+2023-03-11 03:40:13,765 DEBUG   SenderThread:72765 [sender.py:send():334] send: run
+2023-03-11 03:40:13,983 INFO    SenderThread:72765 [dir_watcher.py:__init__():216] watching files in: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files
+2023-03-11 03:40:13,984 INFO    SenderThread:72765 [sender.py:_start_run_threads():1065] run started: 1a9if6lf with start time 1678524013.76097
+2023-03-11 03:40:13,984 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: summary_record
+2023-03-11 03:40:13,984 INFO    SenderThread:72765 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-11 03:40:13,988 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: check_version
+2023-03-11 03:40:13,989 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: check_version
+2023-03-11 03:40:14,082 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: run_start
+2023-03-11 03:40:14,115 DEBUG   HandlerThread:72765 [system_info.py:__init__():31] System info init
+2023-03-11 03:40:14,115 DEBUG   HandlerThread:72765 [system_info.py:__init__():46] System info init done
+2023-03-11 03:40:14,115 INFO    HandlerThread:72765 [system_monitor.py:start():151] Starting system monitor
+2023-03-11 03:40:14,115 INFO    SystemMonitor:72765 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-11 03:40:14,115 INFO    HandlerThread:72765 [system_monitor.py:probe():172] Collecting system info
+2023-03-11 03:40:14,115 INFO    SystemMonitor:72765 [interfaces.py:start():168] Started cpu
+2023-03-11 03:40:14,116 DEBUG   HandlerThread:72765 [system_info.py:probe():195] Probing system
+2023-03-11 03:40:14,116 INFO    SystemMonitor:72765 [interfaces.py:start():168] Started disk
+2023-03-11 03:40:14,116 INFO    SystemMonitor:72765 [interfaces.py:start():168] Started gpuapple
+2023-03-11 03:40:14,118 INFO    SystemMonitor:72765 [interfaces.py:start():168] Started memory
+2023-03-11 03:40:14,119 INFO    SystemMonitor:72765 [interfaces.py:start():168] Started network
+2023-03-11 03:40:14,123 DEBUG   HandlerThread:72765 [git.py:repo():40] git repository is invalid
+2023-03-11 03:40:14,124 DEBUG   HandlerThread:72765 [system_info.py:probe():241] Probing system done
+2023-03-11 03:40:14,124 DEBUG   HandlerThread:72765 [system_monitor.py:probe():181] {'os': 'macOS-13.0.1-arm64-arm-64bit', 'python': '3.10.7', 'heartbeatAt': '2023-03-11T08:40:14.116068', 'startedAt': '2023-03-11T08:40:13.747639', 'docker': None, 'cuda': None, 'args': ('train', 'rnn_model.pt', '--cell-type', 'rnn', '--viz-wandb', 'amyxin', '--training-dir', 'Hansard/Training'), 'state': 'running', 'program': '/Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/a2_run.py', 'codePath': 'a2_run.py', 'host': 'Amys-MacBook-Air.local', 'username': 'amyxin', 'executable': '/Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/venv/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 11.06106948852539}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-03-11 03:40:14,125 INFO    HandlerThread:72765 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-11 03:40:14,125 INFO    HandlerThread:72765 [system_monitor.py:probe():185] Publishing system info
+2023-03-11 03:40:14,125 DEBUG   HandlerThread:72765 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-11 03:40:14,125 DEBUG   HandlerThread:72765 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-11 03:40:14,128 INFO    HandlerThread:72765 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-11 03:40:14,133 DEBUG   SenderThread:72765 [sender.py:send():334] send: files
+2023-03-11 03:40:14,133 INFO    SenderThread:72765 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-03-11 03:40:14,138 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-11 03:40:14,138 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: stop_status
+2023-03-11 03:40:14,211 DEBUG   SenderThread:72765 [sender.py:send():334] send: telemetry
+2023-03-11 03:40:14,211 DEBUG   SenderThread:72765 [sender.py:send():334] send: telemetry
+2023-03-11 03:40:14,557 INFO    Thread-16 :72765 [upload_job.py:push():143] Uploaded file /var/folders/dx/xjqmt3yx5mx1lpg6_gvgn4fm0000gn/T/tmp2r4avig9wandb/ge8j79w2-wandb-metadata.json
+2023-03-11 03:40:14,991 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/requirements.txt
+2023-03-11 03:40:14,991 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:40:14,991 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/wandb-metadata.json
+2023-03-11 03:40:14,991 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/wandb-summary.json
+2023-03-11 03:40:16,998 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:40:19,232 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:24,256 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:29,148 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:29,150 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:29,266 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:34,279 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:34,288 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:39,317 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:41,313 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:44,349 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:45,141 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/config.yaml
+2023-03-11 03:40:46,342 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:49,485 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:51,370 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:54,507 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:40:56,392 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:40:59,531 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:01,414 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:04,558 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:06,433 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:07,275 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:09,284 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:10,099 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:11,462 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:13,301 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:14,122 DEBUG   SystemMonitor:72765 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-11 03:41:14,157 DEBUG   SenderThread:72765 [sender.py:send():334] send: telemetry
+2023-03-11 03:41:14,158 DEBUG   SenderThread:72765 [sender.py:send():334] send: stats
+2023-03-11 03:41:15,360 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:15,852 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:16,361 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/config.yaml
+2023-03-11 03:41:16,522 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:17,388 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:20,404 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:21,531 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:21,537 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:22,416 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:26,432 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:26,552 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:26,760 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:28,442 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:30,451 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:31,575 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:31,849 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:32,463 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:34,476 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:36,482 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:36,589 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:36,920 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:38,491 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:40,497 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:41,616 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:42,056 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:42,517 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:44,145 DEBUG   SenderThread:72765 [sender.py:send():334] send: stats
+2023-03-11 03:41:44,523 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:46,643 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:47,517 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:48,546 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:50,552 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:51,665 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:52,560 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:53,238 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:54,565 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:41:56,688 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:41:58,401 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:41:58,579 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:42:00,586 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:42:01,702 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 03:42:02,379 DEBUG   SenderThread:72765 [sender.py:send():334] send: exit
+2023-03-11 03:42:02,379 INFO    SenderThread:72765 [sender.py:send_exit():557] handling exit code: 255
+2023-03-11 03:42:02,387 INFO    SenderThread:72765 [sender.py:send_exit():559] handling runtime: 108
+2023-03-11 03:42:02,387 INFO    SenderThread:72765 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-11 03:42:02,393 INFO    SenderThread:72765 [sender.py:send_exit():565] send defer
+2023-03-11 03:42:02,394 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,394 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-11 03:42:02,395 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,395 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-03-11 03:42:02,395 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 1
+2023-03-11 03:42:02,396 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,396 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-11 03:42:02,396 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,396 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-03-11 03:42:02,396 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 2
+2023-03-11 03:42:02,396 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,396 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-11 03:42:02,396 INFO    HandlerThread:72765 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-11 03:42:02,412 DEBUG   SystemMonitor:72765 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-11 03:42:02,412 DEBUG   SystemMonitor:72765 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-11 03:42:02,412 INFO    HandlerThread:72765 [interfaces.py:finish():175] Joined cpu
+2023-03-11 03:42:02,413 INFO    HandlerThread:72765 [interfaces.py:finish():175] Joined disk
+2023-03-11 03:42:02,413 INFO    HandlerThread:72765 [interfaces.py:finish():175] Joined gpuapple
+2023-03-11 03:42:02,413 INFO    HandlerThread:72765 [interfaces.py:finish():175] Joined memory
+2023-03-11 03:42:02,413 INFO    HandlerThread:72765 [interfaces.py:finish():175] Joined network
+2023-03-11 03:42:02,413 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,413 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-03-11 03:42:02,413 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 3
+2023-03-11 03:42:02,413 DEBUG   SenderThread:72765 [sender.py:send():334] send: stats
+2023-03-11 03:42:02,414 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,414 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-11 03:42:02,414 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,414 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-03-11 03:42:02,414 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 4
+2023-03-11 03:42:02,414 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,414 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-11 03:42:02,415 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,415 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-03-11 03:42:02,415 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 5
+2023-03-11 03:42:02,415 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,415 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-11 03:42:02,415 DEBUG   SenderThread:72765 [sender.py:send():334] send: summary
+2023-03-11 03:42:02,415 INFO    SenderThread:72765 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-11 03:42:02,415 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,415 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-03-11 03:42:02,415 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 6
+2023-03-11 03:42:02,415 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,415 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-11 03:42:02,416 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,416 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-03-11 03:42:02,416 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 7
+2023-03-11 03:42:02,416 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 03:42:02,416 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:02,416 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-11 03:42:02,416 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:02,416 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-03-11 03:42:02,593 INFO    Thread-13 :72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/wandb-summary.json
+2023-03-11 03:42:03,383 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-11 03:42:04,577 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 8
+2023-03-11 03:42:04,578 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: poll_exit
+2023-03-11 03:42:04,578 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:04,579 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-11 03:42:04,579 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:04,579 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-03-11 03:42:04,580 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 9
+2023-03-11 03:42:04,580 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:04,580 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-11 03:42:04,581 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:04,581 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-03-11 03:42:04,581 INFO    SenderThread:72765 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-11 03:42:04,600 INFO    SenderThread:72765 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:42:04,600 INFO    SenderThread:72765 [dir_watcher.py:finish():392] scan: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files
+2023-03-11 03:42:04,600 INFO    SenderThread:72765 [dir_watcher.py:finish():406] scan save: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/requirements.txt requirements.txt
+2023-03-11 03:42:04,600 INFO    SenderThread:72765 [dir_watcher.py:finish():406] scan save: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log output.log
+2023-03-11 03:42:04,602 INFO    SenderThread:72765 [dir_watcher.py:finish():406] scan save: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/config.yaml config.yaml
+2023-03-11 03:42:04,603 INFO    SenderThread:72765 [dir_watcher.py:finish():406] scan save: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/wandb-summary.json wandb-summary.json
+2023-03-11 03:42:04,605 INFO    SenderThread:72765 [dir_watcher.py:finish():406] scan save: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/wandb-metadata.json wandb-metadata.json
+2023-03-11 03:42:04,605 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 10
+2023-03-11 03:42:04,605 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:04,605 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-11 03:42:04,606 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:04,606 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-03-11 03:42:04,606 INFO    SenderThread:72765 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-11 03:42:04,954 INFO    Thread-18 :72765 [upload_job.py:push():143] Uploaded file /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/output.log
+2023-03-11 03:42:04,956 INFO    Thread-17 :72765 [upload_job.py:push():143] Uploaded file /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/requirements.txt
+2023-03-11 03:42:05,013 INFO    Thread-19 :72765 [upload_job.py:push():143] Uploaded file /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/config.yaml
+2023-03-11 03:42:05,078 INFO    Thread-20 :72765 [upload_job.py:push():143] Uploaded file /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/files/wandb-summary.json
+2023-03-11 03:42:05,283 INFO    Thread-12 (_thread_body):72765 [sender.py:transition_state():585] send defer: 11
+2023-03-11 03:42:05,284 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:05,284 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-11 03:42:05,284 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:05,285 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-03-11 03:42:05,285 INFO    SenderThread:72765 [file_pusher.py:join():165] waiting for file pusher
+2023-03-11 03:42:05,285 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 12
+2023-03-11 03:42:05,285 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:05,285 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-11 03:42:05,285 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:05,285 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-03-11 03:42:05,365 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 13
+2023-03-11 03:42:05,365 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:05,366 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-11 03:42:05,366 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:05,366 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-03-11 03:42:05,367 INFO    SenderThread:72765 [sender.py:transition_state():585] send defer: 14
+2023-03-11 03:42:05,367 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: defer
+2023-03-11 03:42:05,368 DEBUG   SenderThread:72765 [sender.py:send():334] send: final
+2023-03-11 03:42:05,368 INFO    HandlerThread:72765 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-11 03:42:05,368 DEBUG   SenderThread:72765 [sender.py:send():334] send: footer
+2023-03-11 03:42:05,368 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: defer
+2023-03-11 03:42:05,368 INFO    SenderThread:72765 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-03-11 03:42:05,369 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-11 03:42:05,369 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: server_info
+2023-03-11 03:42:05,369 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: poll_exit
+2023-03-11 03:42:05,371 DEBUG   SenderThread:72765 [sender.py:send_request():361] send_request: server_info
+2023-03-11 03:42:05,372 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-11 03:42:05,373 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-11 03:42:05,527 INFO    MainThread:72765 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-03-11 03:42:05,528 INFO    MainThread:72765 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-03-11 03:42:05,528 INFO    MainThread:72765 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-03-11 03:42:05,529 DEBUG   HandlerThread:72765 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-11 03:42:05,529 INFO    HandlerThread:72765 [handler.py:finish():841] shutting down handler
+2023-03-11 03:42:06,375 INFO    WriterThread:72765 [datastore.py:close():299] close: /Users/amyxin/Library/CloudStorage/OneDrive-UniversityofToronto/CSC401/A2-NMT-starter-files-xinlinji/wandb/run-20230311_034013-1a9if6lf/run-1a9if6lf.wandb
+2023-03-11 03:42:06,529 INFO    SenderThread:72765 [sender.py:finish():1491] shutting down sender
+2023-03-11 03:42:06,529 INFO    SenderThread:72765 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-11 03:42:06,529 INFO    SenderThread:72765 [file_pusher.py:join():165] waiting for file pusher
